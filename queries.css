@@ -1,0 +1,12 @@
+@media all and (min-width: 767.99px) {
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .img {
+ 
+}
