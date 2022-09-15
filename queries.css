@@ -1,14 +1,16 @@
 @media all and (min-width: 767.99px) {
-  
-  *{
+
+  * {
     box-sizing: border-box;
   }
+
   .HOME {
     display: flex;
-    align-items:  center;
+    align-items: center;
     justify-content: center;
     padding: 10px;
   }
+
   .HOME>div {
     display: flex;
     flex-direction: row-reverse;
@@ -20,7 +22,9 @@
     height: 100%;
     margin: 0;
     padding: 0;
-    border-radius: 0;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 0;
   }
 
   .container {
@@ -30,17 +34,18 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     width: 100%;
-    
+
   }
-  
+
   .texts {
-    margin-inline: 10px;
+    margin: 2.5rem;
   }
+
   .texts h1 {
     font-size: 36px;
     text-align: left;
   }
-  
+
   .texts p {
     font-size: 16px;
     text-align: left;
