@@ -18,13 +18,16 @@
     height: 100%;
   }
 
-  .HOME .image img {
+  .image {
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 0px;
+  }
+
+  .image img {
     height: 100%;
     margin: 0;
     padding: 0;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 0;
   }
 
   .container {
