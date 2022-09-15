@@ -68,6 +68,10 @@ p {
   color: hsla(0, 0%, 100%, 0.6);
 }
 
+footer *{
+  color: white;
+  margin-bottom: 50px;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
